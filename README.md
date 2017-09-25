@@ -15,19 +15,19 @@ The data.table package and dplyr package was required to run the R code in run_a
 1. Download and unzip the data set file.
 
 2. Read the relevant files to variables:
--features.txt -> featurenames
--activity_labels.txt -> activitylabels
--subject_train.txt -> subjecttrain
--y_train.txt -> activitytrain
--X_train.txt -> featuretrain
--subject_test.txt -> subjecttest
--y_test.txt -> activitytest
--X_test.txt -> featuretest
+- features.txt -> featurenames
+- activity_labels.txt -> activitylabels
+- subject_train.txt -> subjecttrain
+- y_train.txt -> activitytrain
+- X_train.txt -> featuretrain
+- subject_test.txt -> subjecttest
+- y_test.txt -> activitytest
+- X_test.txt -> featuretest
 
 3. Merge the test and train data
--combine data in training and test data sets corresponding to subject, activity and features
--name variables
--merge columns to get the mergeddata
+- combine data in training and test data sets corresponding to subject, activity and features
+- name variables
+- merge columns to get the mergeddata
 
 4. Extracts only the measurements on the mean and standard deviation for each measurement.
 
